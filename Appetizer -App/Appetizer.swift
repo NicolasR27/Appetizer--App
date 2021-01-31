@@ -14,7 +14,7 @@ struct Appetizer: Decodable,Identifiable {
 }
 
 
-struct AppetizerResponse {
+struct AppetizerRespose: Decodable{
     let request:[Appetizer]
 }
     struct MockData{
