@@ -14,6 +14,7 @@
 		3714F9B825C6265A006050E6 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3714F9B725C6265A006050E6 /* AccountView.swift */; };
 		3714F9BB25C62665006050E6 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3714F9BA25C62665006050E6 /* OrderView.swift */; };
 		3714F9C125C627AB006050E6 /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3714F9C025C627AB006050E6 /* AppetizerListView.swift */; };
+		3714F9C725C64137006050E6 /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3714F9C625C64137006050E6 /* Appetizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		3714F9B725C6265A006050E6 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		3714F9BA25C62665006050E6 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		3714F9C025C627AB006050E6 /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
+		3714F9C625C64137006050E6 /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				3714F9B725C6265A006050E6 /* AccountView.swift */,
 				3714F9BA25C62665006050E6 /* OrderView.swift */,
 				3714F9C025C627AB006050E6 /* AppetizerListView.swift */,
+				3714F9C625C64137006050E6 /* Appetizer.swift */,
 			);
 			path = "Appetizer -App";
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3714F9C725C64137006050E6 /* Appetizer.swift in Sources */,
 				3714F9B825C6265A006050E6 /* AccountView.swift in Sources */,
 				37091F5B25C5857E00992A20 /* AppetizerTabView.swift in Sources */,
 				37091F5925C5857E00992A20 /* Appetizer__AppApp.swift in Sources */,
