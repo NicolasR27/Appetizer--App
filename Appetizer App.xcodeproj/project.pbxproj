@@ -8,18 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		37091F5925C5857E00992A20 /* Appetizer__AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37091F5825C5857E00992A20 /* Appetizer__AppApp.swift */; };
-		37091F5B25C5857E00992A20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37091F5A25C5857E00992A20 /* ContentView.swift */; };
+		37091F5B25C5857E00992A20 /* AppetizerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37091F5A25C5857E00992A20 /* AppetizerTabView.swift */; };
 		37091F5D25C5858000992A20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37091F5C25C5858000992A20 /* Assets.xcassets */; };
 		37091F6025C5858000992A20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37091F5F25C5858000992A20 /* Preview Assets.xcassets */; };
+		3714F9B825C6265A006050E6 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3714F9B725C6265A006050E6 /* AccountView.swift */; };
+		3714F9BB25C62665006050E6 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3714F9BA25C62665006050E6 /* OrderView.swift */; };
+		3714F9C125C627AB006050E6 /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3714F9C025C627AB006050E6 /* AppetizerListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		37091F5525C5857E00992A20 /* Appetizer -App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Appetizer -App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37091F5525C5857E00992A20 /* Appetizer App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Appetizer App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37091F5825C5857E00992A20 /* Appetizer__AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer__AppApp.swift; sourceTree = "<group>"; };
-		37091F5A25C5857E00992A20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		37091F5A25C5857E00992A20 /* AppetizerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerTabView.swift; sourceTree = "<group>"; };
 		37091F5C25C5858000992A20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37091F5F25C5858000992A20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		37091F6125C5858000992A20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3714F9B725C6265A006050E6 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		3714F9BA25C62665006050E6 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		3714F9C025C627AB006050E6 /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +50,7 @@
 		37091F5625C5857E00992A20 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				37091F5525C5857E00992A20 /* Appetizer -App.app */,
+				37091F5525C5857E00992A20 /* Appetizer App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,10 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				37091F5825C5857E00992A20 /* Appetizer__AppApp.swift */,
-				37091F5A25C5857E00992A20 /* ContentView.swift */,
+				37091F5A25C5857E00992A20 /* AppetizerTabView.swift */,
 				37091F5C25C5858000992A20 /* Assets.xcassets */,
 				37091F6125C5858000992A20 /* Info.plist */,
 				37091F5E25C5858000992A20 /* Preview Content */,
+				3714F9B725C6265A006050E6 /* AccountView.swift */,
+				3714F9BA25C62665006050E6 /* OrderView.swift */,
+				3714F9C025C627AB006050E6 /* AppetizerListView.swift */,
 			);
 			path = "Appetizer -App";
 			sourceTree = "<group>";
@@ -72,9 +81,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		37091F5425C5857E00992A20 /* Appetizer -App */ = {
+		37091F5425C5857E00992A20 /* Appetizer App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37091F6425C5858000992A20 /* Build configuration list for PBXNativeTarget "Appetizer -App" */;
+			buildConfigurationList = 37091F6425C5858000992A20 /* Build configuration list for PBXNativeTarget "Appetizer App" */;
 			buildPhases = (
 				37091F5125C5857E00992A20 /* Sources */,
 				37091F5225C5857E00992A20 /* Frameworks */,
@@ -84,9 +93,9 @@
 			);
 			dependencies = (
 			);
-			name = "Appetizer -App";
+			name = "Appetizer App";
 			productName = "Appetizer -App";
-			productReference = 37091F5525C5857E00992A20 /* Appetizer -App.app */;
+			productReference = 37091F5525C5857E00992A20 /* Appetizer App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +112,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 37091F5025C5857E00992A20 /* Build configuration list for PBXProject "Appetizer -App" */;
+			buildConfigurationList = 37091F5025C5857E00992A20 /* Build configuration list for PBXProject "Appetizer App" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,7 +125,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				37091F5425C5857E00992A20 /* Appetizer -App */,
+				37091F5425C5857E00992A20 /* Appetizer App */,
 			);
 		};
 /* End PBXProject section */
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37091F5B25C5857E00992A20 /* ContentView.swift in Sources */,
+				3714F9B825C6265A006050E6 /* AccountView.swift in Sources */,
+				37091F5B25C5857E00992A20 /* AppetizerTabView.swift in Sources */,
 				37091F5925C5857E00992A20 /* Appetizer__AppApp.swift in Sources */,
+				3714F9BB25C62665006050E6 /* OrderView.swift in Sources */,
+				3714F9C125C627AB006050E6 /* AppetizerListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +321,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		37091F5025C5857E00992A20 /* Build configuration list for PBXProject "Appetizer -App" */ = {
+		37091F5025C5857E00992A20 /* Build configuration list for PBXProject "Appetizer App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37091F6225C5858000992A20 /* Debug */,
@@ -318,7 +330,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37091F6425C5858000992A20 /* Build configuration list for PBXNativeTarget "Appetizer -App" */ = {
+		37091F6425C5858000992A20 /* Build configuration list for PBXNativeTarget "Appetizer App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37091F6525C5858000992A20 /* Debug */,
