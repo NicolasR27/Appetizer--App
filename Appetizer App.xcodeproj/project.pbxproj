@@ -22,6 +22,7 @@
 		3714F9CC25C64B84006050E6 /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3714F9CB25C64B84006050E6 /* AppetizerListCell.swift */; };
 		3714F9D025C64CE5006050E6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3714F9CF25C64CE5006050E6 /* NetworkManager.swift */; };
 		3714F9D425C64FCA006050E6 /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3714F9D325C64FCA006050E6 /* APError.swift */; };
+		37534E5325CA31A700DDC29C /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37534E5225CA31A700DDC29C /* RemoteImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		3714F9CB25C64B84006050E6 /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 		3714F9CF25C64CE5006050E6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		3714F9D325C64FCA006050E6 /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
+		37534E5225CA31A700DDC29C /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				3706FC5B25C75A6A003AD2E8 /* Alert.swift */,
 				3707671A25C7E8C700C77D7F /* LoadingView.swift */,
 				3707671D25C7EB5700C77D7F /* Color+Ext.swift */,
+				37534E5225CA31A700DDC29C /* RemoteImage.swift */,
 			);
 			path = "Appetizer -App";
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				3707671B25C7E8C700C77D7F /* LoadingView.swift in Sources */,
 				3714F9B825C6265A006050E6 /* AccountView.swift in Sources */,
 				37091F5B25C5857E00992A20 /* AppetizerTabView.swift in Sources */,
+				37534E5325CA31A700DDC29C /* RemoteImage.swift in Sources */,
 				37091F5925C5857E00992A20 /* Appetizer__AppApp.swift in Sources */,
 				3706FC5C25C75A6A003AD2E8 /* Alert.swift in Sources */,
 				3714F9BB25C62665006050E6 /* OrderView.swift in Sources */,
