@@ -8,8 +8,6 @@ struct AlertItem:Identifiable{
     let message: Text
     let dismissButton: Alert.Button
     
-    
-    
 }
 
 
@@ -36,12 +34,19 @@ struct AlertContext {
     
     //MARK - Account Alerts
     static let invalidForm = AlertItem(title:Text ("Invalid Form"),
-                                            message: Text( "Unable to complete your request at this time please ensure all forms filled out"),
-                                            dismissButton:.default(Text("ok")))
-   
-   
+                                       message: Text( "Unable to complete your request at this time please ensure all forms filled out"),
+                                       dismissButton:.default(Text("ok")))
+    
+    
     static let invalidEmail = AlertItem(title:Text ("Invalid email"),
-                                            message: Text( "Unable to complete your request at this time please ensure email is valid "),
-                                            dismissButton:.default(Text("ok")))
-
+                                        message: Text( "Unable to complete your request at this time please ensure email is valid "),
+                                        dismissButton:.default(Text("ok")))
+    
+    static let userSaveSucess = AlertItem(title:Text ("Profile Saved"),
+                                          message: Text( "you account information was succesfully saved"),
+                                          dismissButton:.default(Text("ok")))
+    
+    static let invalidUserData = AlertItem(title:Text ("Profile Error"),
+                                           message: Text( "There was error retrieving you profile"),
+                                           dismissButton:.default(Text("ok")))
 }
