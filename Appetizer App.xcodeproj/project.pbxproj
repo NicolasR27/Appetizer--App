@@ -27,6 +27,7 @@
 		37534E7125CA763000DDC29C /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37534E7025CA763000DDC29C /* APButton.swift */; };
 		37534E7425CA784E00DDC29C /* XDimissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37534E7325CA784E00DDC29C /* XDimissButton.swift */; };
 		3780C18B25CB932600837A76 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3780C18A25CB932600837A76 /* AccountViewModel.swift */; };
+		3780C18E25CB973A00837A76 /* String+ EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3780C18D25CB973A00837A76 /* String+ EXT.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		37534E7025CA763000DDC29C /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
 		37534E7325CA784E00DDC29C /* XDimissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDimissButton.swift; sourceTree = "<group>"; };
 		3780C18A25CB932600837A76 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		3780C18D25CB973A00837A76 /* String+ EXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+ EXT.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				3707671D25C7EB5700C77D7F /* Color+Ext.swift */,
+				3780C18D25CB973A00837A76 /* String+ EXT.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				3780C18B25CB932600837A76 /* AccountViewModel.swift in Sources */,
 				3706FC5825C75710003AD2E8 /* AppetizerListViewModel.swift in Sources */,
 				3707671E25C7EB5700C77D7F /* Color+Ext.swift in Sources */,
+				3780C18E25CB973A00837A76 /* String+ EXT.swift in Sources */,
 				3714F9D025C64CE5006050E6 /* NetworkManager.swift in Sources */,
 				37534E7125CA763000DDC29C /* APButton.swift in Sources */,
 				3707671B25C7E8C700C77D7F /* LoadingView.swift in Sources */,
