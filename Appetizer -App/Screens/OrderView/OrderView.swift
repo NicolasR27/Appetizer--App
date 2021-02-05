@@ -8,7 +8,7 @@ struct OrderView: View {
     
     var body: some View {
         NavigationView {
-            ZStack{
+            ZStack {
                 VStack {
                     List {
                         ForEach(order.items) { appetizer in

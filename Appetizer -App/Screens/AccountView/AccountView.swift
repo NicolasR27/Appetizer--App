@@ -14,18 +14,19 @@ struct AccountView: View {
                         .keyboardType(.emailAddress)
                         .autocapitalization(.none)
                         .disableAutocorrection(true)
-                    DatePicker("Birthday",selection: $viewModel.user.birthDate,
-                               displayedComponents: .date)
+                    DatePicker("Birthday" ,selection: $viewModel.user.birthDate,
+                               in: Date().oneHundredTenYearsAgo...Date().eighteenYearsago,  displayedComponents: .date)
+                    
                     Button {
                         viewModel.saveChanges()
                     } label:{
                         Text("Save Changes")
-                   }
+                    }
                 }
                 
                 Section(header: Text("Requests")) {
                     Toggle("Extra Napkins" , isOn: $viewModel.user.extraNapkins)
-                       
+                    
                     Toggle("Frequent Refills" , isOn: $viewModel.user.frequentRefills)
                     
                     
@@ -39,7 +40,7 @@ struct AccountView: View {
         .onAppear() {
             viewModel.retrieveUser()
         }
-       
+        
         .alert(item: $viewModel.alertItem){ alertItem in
             Alert(title: alertItem.title,
                   message: alertItem.message,

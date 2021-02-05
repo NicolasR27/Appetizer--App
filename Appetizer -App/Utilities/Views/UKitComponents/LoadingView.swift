@@ -23,7 +23,9 @@ struct LoadingView: View{
             Color(.systemBackground)
                 .edgesIgnoringSafeArea(.all)
             
-            ActivityIndicator()
+           ProgressView("Loading...")
+            .progressViewStyle(CircularProgressViewStyle(tint: .brandPrimary))
+            .scaleEffect(2)
         }
     }
     

@@ -28,6 +28,7 @@
 		37534E6D25CA441300DDC29C /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37534E6C25CA441300DDC29C /* AppetizerDetailView.swift */; };
 		37534E7125CA763000DDC29C /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37534E7025CA763000DDC29C /* APButton.swift */; };
 		37534E7425CA784E00DDC29C /* XDimissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37534E7325CA784E00DDC29C /* XDimissButton.swift */; };
+		3770BEBE25CCC3C400E11A38 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3770BEBD25CCC3C400E11A38 /* Date+Ext.swift */; };
 		3780C18B25CB932600837A76 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3780C18A25CB932600837A76 /* AccountViewModel.swift */; };
 		3780C18E25CB973A00837A76 /* String+ EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3780C18D25CB973A00837A76 /* String+ EXT.swift */; };
 		3780C19125CBA36300837A76 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3780C19025CBA36300837A76 /* User.swift */; };
@@ -57,6 +58,7 @@
 		37534E6C25CA441300DDC29C /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
 		37534E7025CA763000DDC29C /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
 		37534E7325CA784E00DDC29C /* XDimissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDimissButton.swift; sourceTree = "<group>"; };
+		3770BEBD25CCC3C400E11A38 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		3780C18A25CB932600837A76 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		3780C18D25CB973A00837A76 /* String+ EXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+ EXT.swift"; sourceTree = "<group>"; };
 		3780C19025CBA36300837A76 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 			children = (
 				3707671D25C7EB5700C77D7F /* Color+Ext.swift */,
 				3780C18D25CB973A00837A76 /* String+ EXT.swift */,
+				3770BEBD25CCC3C400E11A38 /* Date+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				3714F9D425C64FCA006050E6 /* APError.swift in Sources */,
 				3714F9CC25C64B84006050E6 /* AppetizerListCell.swift in Sources */,
 				37534E7425CA784E00DDC29C /* XDimissButton.swift in Sources */,
+				3770BEBE25CCC3C400E11A38 /* Date+Ext.swift in Sources */,
 				37515EAB25CBEDB0008AD076 /* Order.swift in Sources */,
 				3780C18B25CB932600837A76 /* AccountViewModel.swift in Sources */,
 				3706FC5825C75710003AD2E8 /* AppetizerListViewModel.swift in Sources */,
